@@ -7,4 +7,5 @@ urlpatterns = [
     path('minhaconta/', minha_conta, name='minha_conta'),
     path('carinho/', carinho, name='carinho'),
     path('checkout', checkout, name='checkout'),
+    path('login/', login, name='login'),
 ]

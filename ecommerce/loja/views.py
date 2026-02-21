@@ -9,7 +9,7 @@ def loja(request):
     return render(request, 'loja.html')
 
 def minha_conta(request):
-    return render(request, 'minha_conta.html')
+    return render(request, 'usuario/minha_conta.html')
 
 def carinho(request):
     return render(request, 'carinho.html')
@@ -17,14 +17,5 @@ def carinho(request):
 def checkout(request):
     return render(request, 'checkout.html')
 
-def homepage(request):
-    return render(request, 'homepage.html')
-
-def homepage(request):
-    return render(request, 'homepage.html')
-
-def homepage(request):
-    return render(request, 'homepage.html')
-
-def homepage(request):
-    return render(request, 'homepage.html')
+def login(request):
+    return render(request, 'usuario/login.html')
